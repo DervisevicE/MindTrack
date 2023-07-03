@@ -17,6 +17,7 @@ export default {
         "sleepImprovement" : "#d7c4dd",
         "hyperactivity": "#c3ddba",
         "anxiety2": "#d9bda9",
+        "blackColor" : "#161616"
       }
     },
   },
