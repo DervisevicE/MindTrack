@@ -12,9 +12,8 @@ const NavBar = () => {
 
             <div className="menu flex gap-8">
                 <li className="menuList text-[16px]">Home</li>
-                <li className="menuList text-[16px]">About us</li>
-                <li className="menuList text-[16px]">Tracks</li>
                 <li className="menuList text-[16px]">How it works</li>
+                <li className="menuList text-[16px]"><a href="#tracks">Tracks</a></li>
                 <li className="menuList text-[16px]">Contact us</li>
             </div>
         </div>
