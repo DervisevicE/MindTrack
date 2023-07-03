@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-image: url("./assets/Background.png");
+  background-size: cover;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover::before{
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: #68a77c;  
+  right: 0;
+  bottom: -8px;
+  color: #68a77c;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.card{
+  
+}
