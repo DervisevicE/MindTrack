@@ -17,7 +17,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className="relative">
-                    <img className="absolute -right-24 top-24 " src={illustration} />
+                    <img className="absolute -right-24 top-28 h-[700px] w-[700px] " src={illustration} />
                 </div>
                
             </div>
